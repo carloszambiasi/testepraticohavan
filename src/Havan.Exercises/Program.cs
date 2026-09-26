@@ -19,3 +19,10 @@ Console.WriteLine("=== Questão 3 ===");
 var text = "A Bateria do computador está Fraca!";
 
 StringAnalyzer.Analyze(text);
+
+Console.WriteLine();
+Console.WriteLine("=== Questão 4 ===");
+
+var paymentDate = new DateTime(2026, 10, 15);
+
+PaymentProcessor.Calculate(paymentDate);
